@@ -9,8 +9,7 @@
 <img src="https://telegra.ph/file/ea47d6949c36e59d9f697.jpg" />
 </details>
 
-```
-# [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X&template=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X)
+#[DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X&template=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X)
 </details>
 
 
