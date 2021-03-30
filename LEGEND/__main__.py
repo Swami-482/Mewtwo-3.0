@@ -65,7 +65,7 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [KIRITO](https://telegra.ph/file/ea47d6949c36e59d9f697.jpg)
+Hello there, I'm [KIRITO](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -89,7 +89,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [KIRITO](https://telegra.ph/file/ea47d6949c36e59d9f697.jpg)
+*Main Commands :* [KIRITO](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)
 ✪ /start: Starts me! You've probably already used this!
 ✪ /help: Click this, To know my commands!
 ✪ /donate: You can support my creater using this command.
@@ -363,7 +363,7 @@ def LEGEND_about_callback(update, context):
             text=f"*⚡Hi again!  The name's {dispatcher.bot.first_name} ⚡ \n\nAs  You I'm a next generational group management bot developed by @ken_kenaki.* "
             f"\n\n 🔥 Join [KIRITO SUPPORT ](https://t.me/kiritosupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
