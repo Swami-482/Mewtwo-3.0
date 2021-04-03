@@ -12,4 +12,6 @@
 [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSwami-482%2FMewtwo-3.0&template=https%3A%2F%2Fgithub.com%2FSwami-482%2FMewtwo-3.0)
 </details>
 
+# Support Chat 
+[Mewtwo support](https://t.me/mewtwo1_botsupport)
 
