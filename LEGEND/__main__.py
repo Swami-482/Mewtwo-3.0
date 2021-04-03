@@ -65,9 +65,9 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [KIRITO](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)
+Hello there, I'm [MEWTWO](https://telegra.ph/file/136c61a6d5da4e46176ba.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+I am a powerfull Group Managing Bot and I will help in managing your group
 
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -81,15 +81,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="⚡ Add KIRITO to your group ⚡",
-            url="t.me/@kirito13_bot?startgroup=true",
+            text="⚡ Add MEWTWO 3.0 to your group ⚡",
+            url="t.me/@mewtwo3_bot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [KIRITO](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)
+*Main Commands :* [MEWTWO-3.0](https://telegra.ph/file/136c61a6d5da4e46176ba.jpg)
 ✪ /start: Starts me! You've probably already used this!
 ✪ /help: Click this, To know my commands!
 ✪ /donate: You can support my creater using this command.
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already⚡⚡\n<b>Haven't slept since👀:</b> <code>{}</code>".format(
+            "I'm now online⚡⚡\n<b>Haven't slept since👀:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -360,8 +360,8 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*⚡Hi again!  The name's {dispatcher.bot.first_name} ⚡ \n\nAs  You I'm a next generational group management bot developed by @ken_kenaki.* "
-            f"\n\n 🔥 Join [KIRITO SUPPORT ](https://t.me/kiritosupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*⚡Hi again!  The name's {dispatcher.bot.first_name} ⚡ \n\nAs  You I'm a next generational group management bot developed by @Swami_2_0_0_5.* "
+            f"\n\n 🔥 Join [MEWTWO SUPPORT ](https://t.me/mewtwo1_botsupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -398,7 +398,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/kiritosupport).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [MeWTWO support](https://t.me/mewtwo1_botsupport).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -419,7 +419,7 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [KANEKI](https://github.com/kanekiken44)."
+            f"\n\nBased on [Swami](https://github.com/Swami-482)."
             f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @kiritosupport1.",
             parse_mode=ParseMode.MARKDOWN,
@@ -538,7 +538,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="⚡Support Chat⚡",
-                            url="https://t.me/kiritosupport1".format(SUPPORT_CHAT),
+                            url="https://t.me/mewtwo1_botsupport".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
