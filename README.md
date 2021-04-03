@@ -1,15 +1,15 @@
-# KIRITO 3.8
- KIRITO VERSION 3.8 IS RELEASED⚡⚡ 
+# Mewtwo 3.0
+ Mewtwo VERSION 3.0 IS RELEASED⚡⚡ 
 
 **You got any error contact me** 👇
-[KANEKI ](https://t.me/ken_kenaki)
+[KANEKI ](https://t.me/Swami_2_0_0_5)
 
 <details>
-<summary> KIRITO </summary>
-<img src="https://telegra.ph/file/ea47d6949c36e59d9f697.jpg" />
+<summary> MEWTWO 3.0 </summary>
+<img src="https://telegra.ph/file/136c61a6d5da4e46176ba.jpg" />
 </details>
 
-[DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X&template=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X)
+[DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FSwami-482%2FMewtwo-3.0&template=https%3A%2F%2Fgithub.com%2FSwami-482%2FMewtwo-3.0)
 </details>
 
 
