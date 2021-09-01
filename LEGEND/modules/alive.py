@@ -45,24 +45,12 @@ async def callback_query_handler(event):
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
 async def callback_query_handler(event):
-  global PHOTO
-  legendx = event.sender.first_name
-# inline by LEGENDX22 and PROBOYX 🔥
-  LEGENDX = "➥ MEWTWO HERE!!  \n\n"
-  LEGENDX += "➥ALL SYSTEM WORKING PROPERLY\n\n"
-  LEGENDX += "➥USER OS : 3.8 LATEST\n\n"
-  LEGENDX += f"➥USER: {legendx} ☺️\n\n"
-  LEGENDX += "➥FULLY UPDATED BOT\n\n"
-  LEGENDX += "➥TELETHON : 1.19.5 [LATEST]\n\n"
-  LEGENDX += "!!THANKS FOR ADDING ME HERE!!"
-  BUTTONS = [[Button.url("MASTER", "https://t.me/Swami_2_0_0_5"), Button.url("DEVLOPER", "https://t.me/Swami_alt")]]
-  BUTTONS += [[custom.Button.inline("✧REPOSITORYS✧", data="LEGENDX")]]
-  await event.edit(text=LEGENDX, buttons=BUTTONS)
+await event.edit(text=LEGENDX, buttons=BUTTONS)
 
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF KIRITO", buttons=[[Button.url("😼REPO😼", "https://github.com/Swami-482/Mewtwo-3.0")]])
+  await tbot.send_message(event.chat, "REPO OF MEWTWO", buttons=[[Button.url("😼REPO😼", "https://github.com/Swami-482/Mewtwo-3.0")]])
 # PROBOYX 🔥 LEGENDX22
 
 __help__ = """
