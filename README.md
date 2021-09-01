@@ -2,7 +2,7 @@
  Mewtwo VERSION 3.0 IS RELEASED⚡⚡ 
 
 **You got any error contact me** 👇
-[SWAMI ](https://t.me/Swami_2_0_0_5)
+[👑𝕾𝖜𝖆𝖒𝖎👑 ](https://t.me/go_awayy_kid)
 
 <details>
 <summary> MEWTWO 3.0 </summary>
