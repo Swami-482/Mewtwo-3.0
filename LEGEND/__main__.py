@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/teamishere,[LEGEND BOT](t.me/teamishere),"""
+Support them  [N](t.me/go_awayy_kid,[MEWTWO BOT](t.me/go_awayy_kid),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -360,8 +360,8 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*⚡Hi again!  The name's {dispatcher.bot.first_name} ⚡ \n\nAs  You I'm a next generational group management bot developed by @Swami_2_0_0_5.* "
-            f"\n\n 🔥 Join [MEWTWO SUPPORT ](https://t.me/mewtwo1_botsupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*⚡Hi again!  The name's {dispatcher.bot.first_name} ⚡ \n\nAs  You I'm a next generational group management bot developed by @Go_Awayy_Kid.* "
+            f"\n\n 🔥 Join [MEWTWO SUPPORT ](https://t.me/go_awayy_kid) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/9382cb6cf7cd3d0071653.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
@@ -398,7 +398,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [MeWTWO support](https://t.me/mewtwo1_botsupport).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [MeWTWO support](https://t.me/go_awayy_kid).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -420,8 +420,8 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
             f"\n\nBased on [Swami](https://github.com/Swami-482)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @kiritosupport1.",
+            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @Go_awayy_kid"
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet me know if u have any problem.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -478,11 +478,11 @@ def LEGEND_about_callback(update, context):
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @kiritosupport1."
+            f"\n✪ If you need to ask anything about \n  this bot."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of KIRITO we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @kiritosupport1."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of MEWTWO we are not resposible for anything."
+            f"\n\nFor any kind of help, related to this bot, Join."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -537,8 +537,8 @@ def get_help(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="⚡Support Chat⚡",
-                            url="https://t.me/mewtwo1_botsupport".format(SUPPORT_CHAT),
+                            text="⚡OWNER⚡",
+                            url="https://t.me/Go_awayy_kid".format(OWNER),
                         )
                     ],
                 ]
